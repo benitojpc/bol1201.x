@@ -1,0 +1,8 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Contents}{1}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Aspectos básicos de la inversión bursátil}{2}{chapter.1}%
+\contentsline {section}{\numberline {1}Objetivos}{2}{section.1.1}%
+\contentsline {section}{\numberline {2}Primeros pasos}{2}{section.1.2}%
+\contentsline {section}{\numberline {3}Renta variable en el largo plazo}{5}{section.1.3}%
+\contentsline {section}{\numberline {4}Diversificación}{5}{section.1.4}%
+\contentsline {section}{\numberline {5}El papel de los dividendos}{5}{section.1.5}%
