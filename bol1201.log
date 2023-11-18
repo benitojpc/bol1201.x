@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.4)  18 NOV 2023 09:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.4)  18 NOV 2023 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,7 +782,7 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 ) (/usr/share/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box90
-) (./bol1201.aux (./mod01.aux))
+) (./bol1201.aux (./mod01.aux) (./mod02.aux))
 \openout1 = `bol1201.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -923,34 +923,34 @@ Overfull \hbox (9.88898pt too wide) detected at line 55
  []
 
 [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4]
-<images/rv-aritmetica.png, id=97, 715.92468pt x 369.63094pt>
+<images/rv-aritmetica.png, id=109, 715.92468pt x 369.63094pt>
 File: images/rv-aritmetica.png Graphic file (type png)
 <use images/rv-aritmetica.png>
 Package pdftex.def Info: images/rv-aritmetica.png  used on input line 111.
 (pdftex.def)             Requested size: 250.5774pt x 129.37276pt.
-<images/rv-geometrica.png, id=99, 392.21532pt x 194.97844pt>
+<images/rv-geometrica.png, id=111, 392.21532pt x 194.97844pt>
 File: images/rv-geometrica.png Graphic file (type png)
 <use images/rv-geometrica.png>
 Package pdftex.def Info: images/rv-geometrica.png  used on input line 117.
 (pdftex.def)             Requested size: 294.16077pt x 146.23346pt.
  [5 <./images/rv-aritmetica.png> <./images/rv-geometrica.png>] [6]
-<images/diversificacion-riesgo.png, id=113, 417.81094pt x 246.1697pt>
+<images/diversificacion-riesgo.png, id=125, 417.81094pt x 246.1697pt>
 File: images/diversificacion-riesgo.png Graphic file (type png)
 <use images/diversificacion-riesgo.png>
 Package pdftex.def Info: images/diversificacion-riesgo.png  used on input line 141.
 (pdftex.def)             Requested size: 313.35744pt x 184.6268pt.
-<images/jazztel.png, id=114, 368.1253pt x 208.52907pt>
+<images/jazztel.png, id=126, 368.1253pt x 208.52907pt>
 File: images/jazztel.png Graphic file (type png)
 <use images/jazztel.png>
 Package pdftex.def Info: images/jazztel.png  used on input line 152.
 (pdftex.def)             Requested size: 239.27861pt x 135.54228pt.
  [7 <./images/diversificacion-riesgo.png>]
-<images/fcc.png, id=120, 371.88937pt x 203.25937pt>
+<images/fcc.png, id=132, 371.88937pt x 203.25937pt>
 File: images/fcc.png Graphic file (type png)
 <use images/fcc.png>
 Package pdftex.def Info: images/fcc.png  used on input line 157.
 (pdftex.def)             Requested size: 241.72522pt x 132.11702pt.
-<images/diversificacion-ibex35.png, id=121, 374.14781pt x 206.27063pt>
+<images/diversificacion-ibex35.png, id=133, 374.14781pt x 206.27063pt>
 File: images/diversificacion-ibex35.png Graphic file (type png)
 <use images/diversificacion-ibex35.png>
 Package pdftex.def Info: images/diversificacion-ibex35.png  used on input line 166.
@@ -961,42 +961,52 @@ Overfull \hbox (1.30751pt too wide) in paragraph at lines 184--185
  []
 
 [9 <./images/diversificacion-ibex35.png>]
-<images/papel-dividendos.png, id=134, 383.93437pt x 198.7425pt>
+<images/papel-dividendos.png, id=146, 383.93437pt x 198.7425pt>
 File: images/papel-dividendos.png Graphic file (type png)
 <use images/papel-dividendos.png>
 Package pdftex.def Info: images/papel-dividendos.png  used on input line 191.
 (pdftex.def)             Requested size: 345.53773pt x 178.86658pt.
  [10 <./images/papel-dividendos.png>]
-<images/papel-dividendos-fiscal.png, id=142, 356.0803pt x 189.70876pt>
+<images/papel-dividendos-fiscal.png, id=154, 356.0803pt x 189.70876pt>
 File: images/papel-dividendos-fiscal.png Graphic file (type png)
 <use images/papel-dividendos-fiscal.png>
 Package pdftex.def Info: images/papel-dividendos-fiscal.png  used on input line 205.
 (pdftex.def)             Requested size: 320.46931pt x 170.73628pt.
-<images/dividendos-historico.png, id=143, 301.125pt x 218.31563pt>
+<images/dividendos-historico.png, id=155, 301.125pt x 218.31563pt>
 File: images/dividendos-historico.png Graphic file (type png)
 <use images/dividendos-historico.png>
 Package pdftex.def Info: images/dividendos-historico.png  used on input line 215.
 (pdftex.def)             Requested size: 210.78606pt x 152.81989pt.
  [11 <./images/papel-dividendos-fiscal.png> <./images/dividendos-historico.png>]
-<images/papel-dividendos2.png, id=150, 358.33875pt x 215.30438pt>
+<images/papel-dividendos2.png, id=162, 358.33875pt x 215.30438pt>
 File: images/papel-dividendos2.png Graphic file (type png)
 <use images/papel-dividendos2.png>
 Package pdftex.def Info: images/papel-dividendos2.png  used on input line 221.
 (pdftex.def)             Requested size: 286.67139pt x 172.24373pt.
- [12 <./images/papel-dividendos2.png>]) [13] (./bol1201.aux (./mod01.aux)) ) 
+ [12 <./images/papel-dividendos2.png>]) [13]
+\openout2 = `mod02.aux'.
+
+ (./mod02.tex
+Chapter 2.
+) [14
+
+
+
+
+] (./bol1201.aux (./mod01.aux) (./mod02.aux)) ) 
 Here is how much of TeX's memory you used:
- 32384 strings out of 477882
- 633297 string characters out of 5837337
+ 32425 strings out of 477882
+ 634051 string characters out of 5837337
  1865388 words of memory out of 5000000
- 51932 multiletter control sequences out of 15000+600000
+ 51959 multiletter control sequences out of 15000+600000
  548344 words of font info for 93 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  93i,18n,99p,1270b,1585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on bol1201.pdf (14 pages, 846411 bytes).
+Output written on bol1201.pdf (15 pages, 849362 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

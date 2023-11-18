@@ -6,3 +6,9 @@
 \contentsline {section}{\numberline {3}Renta variable en el largo plazo}{5}{section.1.3}%
 \contentsline {section}{\numberline {4}Diversificación}{6}{section.1.4}%
 \contentsline {section}{\numberline {5}El papel de los dividendos}{9}{section.1.5}%
+\contentsline {chapter}{\numberline {2}La herramientas del inversor}{14}{chapter.2}%
+\contentsline {section}{\numberline {1}Tipos de gráficos}{14}{section.2.1}%
+\contentsline {section}{\numberline {2}Teoría del Dow. Líneas de tendencia, soporte y resistencia}{14}{section.2.2}%
+\contentsline {section}{\numberline {3}Medias móviles}{14}{section.2.3}%
+\contentsline {section}{\numberline {4}MACD}{14}{section.2.4}%
+\contentsline {section}{\numberline {5}Time frame y fractalidad}{14}{section.2.5}%

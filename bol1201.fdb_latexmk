@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1700295801 "/home/benito/MisDocumentos/edX/UPValenciaX/bol1201.x/bol1201.tex" "bol1201.pdf" "bol1201" 1700295804 0
-  "/home/benito/MisDocumentos/edX/UPValenciaX/bol1201.x/bol1201.tex" 1699986146 1629 888f533d30113ac15b80f0ddfc27e40a ""
+["pdflatex"] 1700296226 "/home/benito/MisDocumentos/edX/UPValenciaX/bol1201.x/bol1201.tex" "bol1201.pdf" "bol1201" 1700296230 0
+  "/home/benito/MisDocumentos/edX/UPValenciaX/bol1201.x/bol1201.tex" 1700296082 1649 b44b549c14b72a772d65139913fbf4d7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1689853683 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1689853683 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1689853683 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -263,9 +263,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1696439479 4480252 045e2e847a54793644911375b39d1f66 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1696439466 6839511 629cf70526969ba80fc0d7277f68f1ae ""
-  "bol1201.aux" 1700295804 2962 bdfbc39ebdddbd82161387b4974350b2 "pdflatex"
-  "bol1201.tex" 1699986146 1629 888f533d30113ac15b80f0ddfc27e40a ""
-  "bol1201.toc" 1700295804 567 0ea0cd1c8a9bf2c474a9feaf8e80e2cd "pdflatex"
+  "bol1201.aux" 1700296230 5023 9f98b94ba2ad2af9ae7eef4b360f240f "pdflatex"
+  "bol1201.tex" 1700296082 1649 b44b549c14b72a772d65139913fbf4d7 ""
+  "bol1201.toc" 1700296230 1068 8b5c709de95ae0bfe18c91debb74939f "pdflatex"
   "images/diversificacion-ibex35.png" 1700289540 57656 a8397f0323f7c71ca87d535acba72547 ""
   "images/diversificacion-riesgo.png" 1700288313 92402 03ef464d9a052e123a74a9051648ff33 ""
   "images/dividendos-historico.png" 1700294571 81743 17c67699106e6b530dc7cead2adc82ec ""
@@ -276,8 +276,10 @@
   "images/papel-dividendos2.png" 1700294961 64165 0d8ca652b413c87ba2c6dc99de276f32 ""
   "images/rv-aritmetica.png" 1700137150 112158 42d97b557ff893aef05157b3a5bf7b3a ""
   "images/rv-geometrica.png" 1700136729 48728 8e78ecf0b1d8653462811f8d2688b5bf ""
-  "mod01.aux" 1700295804 1979 6669a718d779a7304665954728a915b8 "pdflatex"
+  "mod01.aux" 1700296229 1979 6669a718d779a7304665954728a915b8 "pdflatex"
   "mod01.tex" 1700295800 20727 d4ec0f57327ec7ffd55e33e8504ac67a ""
+  "mod02.aux" 1700296230 1993 249bcdafdf6a841f1c5915505898b8a3 "pdflatex"
+  "mod02.tex" 1700296226 389 7891ef6dd7bd6bff99756552d09a21ef ""
   "styles/cmds.tex" 1699986814 8956 a6c12cb2e6ca63f31033f3ea8de57681 ""
   (generated)
   "bol1201.aux"
@@ -285,4 +287,5 @@
   "bol1201.pdf"
   "bol1201.toc"
   "mod01.aux"
+  "mod02.aux"
   (rewritten before read)
