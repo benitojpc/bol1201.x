@@ -8,7 +8,11 @@
 \contentsline {section}{\numberline {5}El papel de los dividendos}{9}{section.1.5}%
 \contentsline {chapter}{\numberline {2}La herramientas del inversor}{14}{chapter.2}%
 \contentsline {section}{\numberline {1}Tipos de gráficos}{14}{section.2.1}%
-\contentsline {section}{\numberline {2}Teoría del Dow. Líneas de tendencia, soporte y resistencia}{14}{section.2.2}%
-\contentsline {section}{\numberline {3}Medias móviles}{14}{section.2.3}%
-\contentsline {section}{\numberline {4}MACD}{14}{section.2.4}%
-\contentsline {section}{\numberline {5}Time frame y fractalidad}{14}{section.2.5}%
+\contentsline {section}{\numberline {2}Teoría de Dow. Líneas de tendencia, soporte y resistencia}{16}{section.2.2}%
+\contentsline {section}{\numberline {3}Medias móviles}{20}{section.2.3}%
+\contentsline {section}{\numberline {4}MACD}{23}{section.2.4}%
+\contentsline {section}{\numberline {5}Time frame y fractalidad}{26}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Estrategias de inversión}{30}{chapter.3}%
+\contentsline {section}{\numberline {1}Plan de inversión a largo plazo}{30}{section.3.1}%
+\contentsline {section}{\numberline {2}Estrategias de trading}{30}{section.3.2}%
+\contentsline {section}{\numberline {3}El análisis fundamental}{30}{section.3.3}%
