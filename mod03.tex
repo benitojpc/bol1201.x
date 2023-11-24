@@ -120,7 +120,9 @@ Vemos que sólo un subperíodo obtiene una rentabilidad negativa, 0,5\% de los c
 
 Hasta ahora hemos vistos estrategias a seguir por el inversor pasivo, aquél que quiere cubrirse del efecto negativo que puede tener la inflación sobre sus ahorros, su capital. 
 
-A continuación analizaremos posibls estrategias a utilizar por aquellos inversores que quieren hacer \tb{tradding}, algo más agresivo, no se trata del largo plazo, sino un tradding a \tb{medio plazo} o a \tb{corto plazo} e incluso \tb{intradía}.
+A continuación analizaremos posibles estrategias a utilizar por aquellos inversores que quieren hacer \tb{tradding}, algo más agresivo, no se trata del largo plazo, sino un tradding a \tb{medio plazo} o a \tb{corto plazo} e incluso \tb{intradía}.
+
+\subsection{Estrategia de Bandera (flag)}
 
 Basaremos nuestra estrategia de inversión en la \ti{identificación y utilización de figuras técnicas, la \tb{bandera}}.
 
@@ -190,8 +192,160 @@ Si hubieramos realizado esa operación la rentabilidad habría sido del 40\%, ha
 
 Esto nos da la idea de que nuestra estrategia de gestión activa es mejor que la correspondiente a la gestión pasiva.
 
-Vamos a estudiar una cuestión muy interesanete, la \tb{correlación entre el stop loss y el take profit y la rentabilidad media y el riesgo medio}.
+Vamos a estudiar una cuestión muy interesanete, la \tb{correlación entre el stop loss y el take profit y la rentabilidad media y el riesgo medido mediante el drawdown}. Para ello lo que se plantea es una \ti{matriz de correlaciones} entre todas las variables que configuran la estrategia.
+\begin{center}
+    \includegraphics[scale=.65]{images/mod03-18.png}
+\end{center}
+La \ti{correlación es un estadístico} que sirve para medir la dependencia o la relación lineal que existe entre dos variables. La correlación va desde -1 a +1, de tal manera que:
+\begin{itemize}
+    \item Si dos variables tienen una correlación próxima a +1, significa que las dos tienen una relación directa y fuerte; es decir, cuando una sube, la otra también, y lo mismo cuando se produce una bajada.
+    \item Si la correlación es negativa y próxima a -1, existe una relación inversa, es decir, cuando una variable sube, la otra baja y viceversa.
+\end{itemize} 
 
+En el caso remarcado en la imagen de la matriz, se reproduce el segundo caso, que pasamos a analizar la que obtuvo, en valor absoluto, un coeficiente mayor representada por la \ti{correlación entre el máximo drawdown (MD)}, la medida de riesgo, y el \ti{stop loss (SL)} que nos habíamos marcado. Vemos que la \ti{correlación es positiva} y está \ti{próxima a +1}, es de \ti{0.85}, esto significa que cuanto mayor sea el \ti{stop loss} mayor va a ser el \ti{drawdown} en nuestra estrategia, por lo tanto, lo que conviene es ceñir ese \ti{stop loss} lo más bajo posible, por ejemplo $0.2$ veces el rango, para así disminuir el riesgo.
 
+Si analizamos la \ti{correlación entre rentabilidad media (MR) o rentabilidad por operación, niveles de stop loss (SL) y take profit (TP)} vemos que la correlación con el \ti{stop loss} es \tb{negativa}, cuanto más grande sea el \ti{stop loss} menor va a sr la \ti{rentabilidad por operación} que se obtenga, mientras que conforme aumenta el nivel de \ti{take profit} mayor va a ser también la \ti{rentabilidad por operación}, es decir, podemos aplicar esta misma estrategia, pero siempre será más interesante alargar lo máximo posible el \ti{take profit} porque eso conseguirá que la \ti{rentabilidad por operación}, sea mayor y, por lo tanto, la \tb{rentabilidad total} también lo sea.
+\begin{center}
+    \includegraphics[scale=.65]{images/mod03-19.png}
+\end{center}
+En el gráfico se compara la misma estrategia pero con dos configuraciones distintas.
+\begin{itemize}
+    \item La primera tiene un \ti{stop loss = 0.2} y un \ti{take profit = 1.4} veces el rango.
+    \item La segunda mantiene el mismo \ti{stop loss}, pero un \ti{take profit = 2} veces el rango.
+\end{itemize}
+Lo que observamos es lo que nos indicaba la matriz de correlaciones, cuanto mayor es el \ti{take profit} mayor es la \ti{rentabilidad media por operación}, y por lo tanto la \ti{rentabilidad total}. En el segundo caso, la rentabilidad está próxima al 200\%, mientras que en el primer caso, la rentabilidad está un poco por encima del 100\%, prácticamente podemos doblar la rentabilidad total simplemente pasando de un \ti{take profit} de .4 a 2.
+
+\subsection{Estrategia basada en el Indicador de Media Móvil}
+
+Una estrategia que históricamente ha sido rentable en el pasado, puede llegar un momento en el que deje de serlo. En ocasiones esto ocurre porque hay avances tecnológicos, o porqu esa estrategia se vuelve tan popular, y es utilizada masivamente, que todo el mundo acaba haciendo lo mismo y, al final, nadie obtiene rentabilidad. Vamos a ver un ejemplo de ésto, una estrategia que ha dejado de funcionar.
+
+Esto implica que los traders, los inversores,  sobre todo los que se dedican más al medio y corto plazo tienen que estar permanentemente validando sus estrategias, incorporando nuevos indicadores o aspectos para mejorar dichas estrategias.
+
+La estrategia que analizamos está basada en el \ti{cruce d dos medias móviles}, una media móvil larga y otra corta, una rápida y otra lenta.
+\begin{center}
+    \includegraphics[scale=.65]{images/mod03-20.png}
+\end{center}
+El ejemplo esta referido a los datos del Dow Jones, trabajamos con datos o con velas diarias, cada una de estas velas representa la evolución de la cotización de un día, y lo que hemos representado han sido dos medias móviles:
+\begin{itemize}
+    \item Una media móvil lenta, la de 50 períodos, línea de verde más oscuro.
+    \item Una media móvil rápida de 14 períodos, algo más clara.
+\end{itemize}
+Lo que dice esta estrategia es qué posición debemos tomar en el mercado largo o cortos, comprar o vender, en función del punto de cruce de las medias.
+\begin{itemize}
+    \item Cuando la media rápida cruza a la media lenta, hacia abajo (primer cruce en la parte izquierda de la imagen), sería una \tb{señal de venta}, deberíamos vender el activo. Observamos como sigue evolucionando el precio.
+    \item El siguiente cruce, la media rápida se cruza con la lenta en un momento de alza, sería una \tb{señal de compra}, aquí sería conveniente comprar y mantener las compras hasta que de nuevo se produzca un cruce descendente.
+\end{itemize}
+En el gráfico vemos que durante el período analizado tendríamos \ti{cinco cruces}, es decir, \ti{cinco operaciones de compra y venta}, que puede que fueran rentables o no. De nuevo debemos considerar un horizonte temporal más amplio para extraer conclusiones.
+
+Este tipo de estrategias ha sido  muy estudada y aquí recopilaremos los resultados de dos de estos trabajos académicos. 
+
+\begin{itemize}
+    \item El primero se publicó en 1992 en \ti{The Journal of Finance}
+    \begin{center}
+        \includegraphics[scale=.65]{images/mod03-21.png}
+    \end{center}
+    Lo que hicieron fue analizar el Dow Jones durante un período histórico muy largo, desde 1897 hasta 1986, y aplicaron estrategias basadas en el \ti{cruce de medias móviles} sobre todo el período completo para evaluar si se obtenía o no, una rentabilidad positiva. Para el período completo observarón que sí, era rentable. Fueron un poco más ayá e indicarón que era posible que la estrategia funcionara muy bien durante todo el período, porque puede funcionar bien en un período determinado y el resto no dar beneficio ni pérdidas, sino que se mantiene estable durante todo el período. 
+    
+    Para contrastar esto lo que hicieron fue dividir el período completo en cuatro subperíodos, aplicar la estrategia para cada uno de ellos, obtiendo que la estrategia era igualmente rentable para cada uno de ellos.
+    \item En 1999 aparece un nuevo trabajo, en la misma revista, en el que los autores utilizaban el mismo índice, aplicando la misma estrategia y los mismos parámetros para el período 1987-1996. Lo que descubrieron es que durante toda esa década la estrategia ya había dejado de ser rentable, por lo tanto, algo que sí había funcionado bien históricamente en el pasado, apartir de ahí (1987) dejó de funcionar.
+\end{itemize}
+La conclusión es que efectivamente podemos tener o leer estrategias en libros o análisis clásicos sobre trading, que en el pasado pudieron funcionar muy bien, pero que es posible que ahora estén obsoletas.
+
+Sin embargo, es posible que muchas de ellas se puedan adaptar, mejorar y combinar diferentes indicadores, osciladores o figuras técnicas chartistas de tal manera que sigan siendo rentables en la actualidad. Es lo que nosotros pretendemos en esta sección.
+
+Vamos a presentar un ejemplo en el que únicamente vamos a utilizar el precio y la media móvil, una media móvil de 200. El índice que analizamos es el DAX-30 (índice Alemán), son datos de quince minutos, cada vela representa quince minutos, cada uno de los rectángulos de fondo representan un día. La media móvil está representada por la línea contínua superior, y vemos que el precio siempre está por debajo de la media móvil, estaríamos ante un escenario bajista.
+\begin{center}
+    \includegraphics[scale=.65]{images/mod03-22.png}
+\end{center}
+Vemos, en la parte izquierda, como el precio llegó a tocar la media móvil, pero esta lo había rechazado, y el precio se fue hacia abajo.
+
+Analizaremos el ejemplo en tres fases:
+
+\begin{itemize}
+    \item \tb{Introducción}. Vemos que son dos los personajes que intervienen en este esquema:
+    \begin{itemize}
+        \item el precio.
+        \item la media móvil
+    \end{itemize}
+    Existe un equilibrio entre ellos, el precio en todo momento está por debajo de la media móvil, la situación de equilibrio es la del mercado. bajista.
+
+    Lo que se observa en el rectángulo correspondiente al cuarto día, es que el precio se aproxima a la media móvil, se prueba si es posible una reacción alcista, parte de la reacción es previa, donde el precio dejó de bajar y ha estado subiendo con oscilaciones.
+    \item \tb{Nudo}. Aquí el equilibrio se rompe.  Lo que hay que ver es si será capaz de romper esa media móvil hacia el alza y, por lo tanto, sería bueno comprar el activo y entrar en largos, o si finalmente, de nuevo, lo va a rechazar y el precio va a seguir su camino hacia abajo.
+    
+    Aquí se llega a un nuevo escenario de equilibrio. Como \ti{traders intradía} debemos decidir si entramos con una operación de compra o de venta o si nos mantenemos fuera del mercado. Otro elemento muy importante, es la aparición de una bandera alcista, en la parte derecha, tenemos dos velas azules alcistas y a continuación un rango que oscila hacia arriba y hacia abajo, lo que indica una ruptura alcista del precio hacia arriba y luego el precio se estabiliza, normalmente esto ocurre cuando se inicia un período alcista.
+    
+    Aquí tenemos dos hipótesis:
+    \begin{enumerate}
+        \item El precio está probando la media móvil y es posible que la rompa después de varios días sin tocarla.
+        \item Tenemos una bandera que es alcista, por lo tanto, lo que nos está indicando es que tenemos que tomar la posición larga de compra del mercado y no la de venta.
+    \end{enumerate}
+    \item \tb{Desenlace}. 
+    \begin{center}
+        \includegraphics[scale=.65]{images/mod03-23.png}
+    \end{center} 
+    La zona sombrada es la bandera, el enfrentamiento del precio con la media móvil, y como, efectivamente, lo rompe, en la apertura del día siguiente del mercado el precio ya ha roto la media móvil y se ha situado por encima, para luego continuar su senda alcista, hasta llegar al nivel marcado. 
+
+    Podemos ver cuál es la rentabilidad que habríamos obtenido en esta operación. El rango vendría determinado por la amplitud de la bandera, viendo que un rango y un poco más de dos, lo que indica que el beneficio podría estar un poco por encima de dos veces el rango, mientras que el \ti{stop loss} lo podríamos haber colocado como un porcentaje sobre el rango, por ejemplo del 20\%, o también podríamos colocarlo por debajo de los mínimos que marca el rango. En cualquier caso, el rato beneficio-riesgo habría sido muy favorable al obtener un beneficio mucho mayor que el riesgo soportado.
+\end{itemize}
+
+Aquí mostramos varios ejemplos de como en ocasiones la media móvil sirve como soporte par el precio, y la media móvil acaba rechazando el precio, llevándolo de nuevo a la tendencia primaria que tenía, que en este caso era alcista.
+\begin{center}
+    \includegraphics[scale=.65]{images/mod03-24.png}
+\end{center} 
+Vemos la media móvil de 200 períodos y el precio, también para el índice DAX-30, con el mismo \ti{time frame} de 15 minutos. ¿Qué observamos? el precio no llega a tocar la media móvil e incluso la llega a romper, durante quince minutos se situa por debajo de ésta, pero en la tercera vela reacciona hacia arriba y vuelve a la fase alcista. Vemos que hay períodos en los que ocurren situaciones similares. Cada uno de los puntos señalados en el gráfico generan señales de compra del activo, y todos ellos acabarían siendo provechosos, dando una rentabilidad positiva. 
+
+De todos los puntos cabría señalar aquellos que rompen la media móvil hacia abajo, durante una o dos velas a lo sumo se quedan por debajo, pero es seguida de una reacción alcista que vuelve el precio por encima de la media móvil. Estas son señales inequivocas de que se deben tomar posiciones largas en el mercado.
+
+A partir de este tipo de indicadores podemos montar una estrategia bursátil similar a la que habíamos analizado con la \ti{bandera}, y obteniendo una ratio rentabilidad-riesgo muy próximo al que veíamos.
 
 \section{El análisis fundamental}
+
+Hemos visto que el objetivo del análisis de las inversiones busca \tb{rentabilizar el capital}, ganar dinero de forma consistente y con un riesgo limitado.
+
+Lo primero que piensa un inversor es qué activos voy a compra y cuáles voy a vender. Si hablamos de acciones existe un gran número de ellas en los mercados que se pueden comprar y vender. Una vez decidido que título compro puedo establecer a qué precio lo compro y a qué precio lo voy a vender para rentabilidar la inversión. Para todo esto son necesarios una serie de análisis que dependen de nuestro perfil inversor, inversor a largo plazo o a corto plazo.
+
+Si somos un inversor a largo plazo, que quieran simplemente tener un dinero a la hora de la jubilación, uno de los análsis más recomendables es el \tb{análisis fundamental}. Este tipo de análisis nos permite realizar una serie de pronósticos, de expectativas, de la evolución a largo plazo de los activos. Se puede utilizar con cualquier tipo de activo, pero lo más común es hacerlo en relación con acciones cotizadas en bolsa.
+
+¿En qué consiste el análisis fundamental?. Analiza aquellos activos, nos centramos en las acciones, que tienen un mayor potencial de revalorización, de tal forma que obtengamos rentabilidad tanto por el valor de la acción, que aumente con los años, como por los dividendos que nos va dando la empresa de los beneficios.
+
+El análisis consiste en analizar la empresa en su totalidad. Existen diferentes tipos de análisis:
+\begin{itemize}
+    \item Pest 
+    \item Dafo 
+    \item Cadena de valor de Porter
+\end{itemize}
+en general, tratan de estudiar el entorno económico y los factores específicos de la empresa.
+\begin{itemize}
+    \item Entorno económico. Los efectos que pueden afectar a los beneficios de la empresa pueden ser:
+    \begin{itemize}
+        \item crecimiento del PIB 
+        \item evolución de los tipos de interés, que permitan o dificulten que la empresa pueda financiarse.
+        \item el tipo de cambio, influye en la competencia internacional.
+    \end{itemize}
+    \item Factores específicos de la empresa.
+    \begin{itemize}
+        \item Evolución de los ingresos,
+        \item cartera de clientes,
+        \item patentes, en el caso de empresas tecnológicas,
+        \item competencia, etc.
+    \end{itemize}
+\end{itemize}
+
+El problema que tenemos está en los \tb{datos}, éstos aparecen con una periodicidad anual, semestral o trimestral, pero no son datos que nos permitan estar controlando el precio de la acción a nivel diario; es decir, el análisis fundamental nos sirve para la especulación a corto plazo y es lo que hay que tener en consideración.
+
+Dentro del análisis fundamental hay distintas estrategias, siendo las dos más importantes:
+
+\begin{description}
+    \item[Value investing], consiste en comparar el precio real con el valor teórico (información contable), que tienen en el mercado, en el momento actual, las acciones. Si vemos que el valor real difiere mucho del valor teórico, que el valor real es más bajo que el teórico, entonces interesa comprar las acciones, ya que pensamos que con el tiempo alcanzarán el valor teórico calculado, y obtendremos una rentabilidad conforme el valor se vaya acercando a nuestro valor teórico pues iremos vendiendo las acciones.
+    
+    Dentro de este análisis se pueden utilizar como indicadores de empresas que hay que analizar:
+    \begin{itemize}
+        \item Price Arning Ratio.
+        \item Price to Book Ratio.
+        \item así como otros ratios financieros económicos que nos indican cuál es la situación de la empresa.
+    \end{itemize}
+
+    \item[Grouth investing]. Se fija no en un valor teórico, en base a la información contable actual, sino en el potencial de crecimiento de las empresas. Es decir, localizo una empresa que pienso que en el futuro va a crecer muchísimo, y que tendrá mucho beneficio, lo que hará que sus acciones se revaloricen, que suban su precio.
+    
+    Aquí nos estamos basando en las \ti{expectativas}, pero hay que tener en cuenta, que muchas veces las expectativas están equivocadas, sobre todo si no hacemos nosotros mismos el análisis y nos fiamos del comportamiento general del mercado y demostramos un comportamiento gregario, hacemos lo que hacen los demás. Esto suele ocurrir cuando hay \ti{«burbujas»}, como ocurrió con la \ti{«burbuja tecnológica o inmobiliarias»}, donde hay mucha expectativa y todo el mundo apuesta por ellas, puede ocurrir que se hinche demasidado y finalmente explote.
+\end{description}
