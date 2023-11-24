@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.4)  22 NOV 2023 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.4)  23 NOV 2023 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1135,25 +1135,165 @@ Package pdftex.def Info: images/time-frame-04.png  used on input line 234.
 
  (./mod03.tex
 Chapter 3.
-) [30
+<images/mod03-01.png, id=308, 360.59718pt x 201.75375pt>
+File: images/mod03-01.png Graphic file (type png)
+<use images/mod03-01.png>
+Package pdftex.def Info: images/mod03-01.png  used on input line 10.
+(pdftex.def)             Requested size: 306.50905pt x 171.49149pt.
+[30
 
 
 
 
-] (./bol1201.aux (./mod01.aux) (./mod02.aux) (./mod03.aux)) ) 
+ <./images/mod03-01.png>]
+<images/mod03-02.png, id=315, 673.76718pt x 396.7322pt>
+File: images/mod03-02.png Graphic file (type png)
+<use images/mod03-02.png>
+Package pdftex.def Info: images/mod03-02.png  used on input line 24.
+(pdftex.def)             Requested size: 437.94348pt x 257.87286pt.
+
+Overfull \hbox (19.6898pt too wide) in paragraph at lines 24--25
+ [] 
+ []
+
+[31 <./images/mod03-02.png>]
+<images/mod03-03.png, id=321, 636.12656pt x 392.21532pt>
+File: images/mod03-03.png Graphic file (type png)
+<use images/mod03-03.png>
+Package pdftex.def Info: images/mod03-03.png  used on input line 30.
+(pdftex.def)             Requested size: 413.47736pt x 254.93694pt.
+<images/mod03-04.png, id=322, 676.77844pt x 408.02437pt>
+File: images/mod03-04.png Graphic file (type png)
+<use images/mod03-04.png>
+Package pdftex.def Info: images/mod03-04.png  used on input line 35.
+(pdftex.def)             Requested size: 439.90077pt x 265.21269pt.
+
+Overfull \hbox (21.6471pt too wide) in paragraph at lines 35--36
+ [] 
+ []
+
+[32 <./images/mod03-03.png>] [33 <./images/mod03-04.png>]
+<images/mod03-05.png, id=333, 326.72063pt x 210.7875pt>
+File: images/mod03-05.png Graphic file (type png)
+<use images/mod03-05.png>
+Package pdftex.def Info: images/mod03-05.png  used on input line 70.
+(pdftex.def)             Requested size: 212.36588pt x 137.01025pt.
+ [34]
+File: images/mod03-05.png Graphic file (type png)
+<use images/mod03-05.png>
+Package pdftex.def Info: images/mod03-05.png  used on input line 79.
+(pdftex.def)             Requested size: 212.36588pt x 137.01025pt.
+ [35 <./images/mod03-05.png>]
+<images/mod03-07.png, id=347, 336.50719pt x 208.52907pt>
+File: images/mod03-07.png Graphic file (type png)
+<use images/mod03-07.png>
+Package pdftex.def Info: images/mod03-07.png  used on input line 86.
+(pdftex.def)             Requested size: 218.72707pt x 135.54228pt.
+<images/mod03-08.png, id=348, 333.49594pt x 216.81pt>
+File: images/mod03-08.png Graphic file (type png)
+<use images/mod03-08.png>
+Package pdftex.def Info: images/mod03-08.png  used on input line 93.
+(pdftex.def)             Requested size: 216.76979pt x 140.92482pt.
+<images/mod03-09.png, id=349, 328.22626pt x 201.75375pt>
+File: images/mod03-09.png Graphic file (type png)
+<use images/mod03-09.png>
+Package pdftex.def Info: images/mod03-09.png  used on input line 98.
+(pdftex.def)             Requested size: 213.34453pt x 131.13837pt.
+ [36 <./images/mod03-07.png> <./images/mod03-08.png>]
+<images/mod03-10.png, id=357, 589.4522pt x 315.42844pt>
+File: images/mod03-10.png Graphic file (type png)
+<use images/mod03-10.png>
+Package pdftex.def Info: images/mod03-10.png  used on input line 108.
+(pdftex.def)             Requested size: 383.13939pt x 205.02605pt.
+ [37 <./images/mod03-09.png> <./images/mod03-10.png>]
+<images/mod03-11.png, id=364, 507.39563pt x 339.51843pt>
+File: images/mod03-11.png Graphic file (type png)
+<use images/mod03-11.png>
+Package pdftex.def Info: images/mod03-11.png  used on input line 115.
+(pdftex.def)             Requested size: 329.80325pt x 220.68436pt.
+ [38 <./images/mod03-11.png>]
+<images/mod03-12.png, id=370, 925.20656pt x 502.87875pt>
+File: images/mod03-12.png Graphic file (type png)
+<use images/mod03-12.png>
+Package pdftex.def Info: images/mod03-12.png  used on input line 140.
+(pdftex.def)             Requested size: 416.33911pt x 226.29333pt.
+
+Overfull \hbox (2.65157pt too wide) in paragraph at lines 144--145
+[]\T1/cmr/m/n/10.95 Identificar el pa-trón. Hemos di-cho que bási-ca-mente la ban-dera re-fleja un movimiento
+ []
+
+[39 <./images/mod03-12.png>]
+<images/mod03-13.png, id=377, 446.41782pt x 274.02374pt>
+File: images/mod03-13.png Graphic file (type png)
+<use images/mod03-13.png>
+Package pdftex.def Info: images/mod03-13.png  used on input line 149.
+(pdftex.def)             Requested size: 290.16814pt x 178.11331pt.
+ [40 <./images/mod03-13.png>]
+<images/mod03-14.png, id=384, 746.03719pt x 398.23781pt>
+File: images/mod03-14.png Graphic file (type png)
+<use images/mod03-14.png>
+Package pdftex.def Info: images/mod03-14.png  used on input line 160.
+(pdftex.def)             Requested size: 484.91843pt x 258.8515pt.
+
+Overfull \hbox (94.03981pt too wide) in paragraph at lines 160--161
+ [] 
+ []
+
+[41 <./images/mod03-14.png>]
+Overfull \hbox (0.5425pt too wide) in paragraph at lines 167--168
+[]\T1/cmr/m/n/10.95 Esta es-trate-gia debe apli-carse ahora so-bre difer-entes índices bursátiles como DJIAX,
+ []
+
+<images/mod03-15.png, id=391, 743.02594pt x 386.19281pt>
+File: images/mod03-15.png Graphic file (type png)
+<use images/mod03-15.png>
+Package pdftex.def Info: images/mod03-15.png  used on input line 174.
+(pdftex.def)             Requested size: 482.96114pt x 251.02234pt.
+
+Overfull \hbox (92.08252pt too wide) in paragraph at lines 174--175
+ [] 
+ []
+
+[42 <./images/mod03-15.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 178.
+<images/mod03-16.png, id=400, 755.07094pt x 395.22656pt>
+File: images/mod03-16.png Graphic file (type png)
+<use images/mod03-16.png>
+Package pdftex.def Info: images/mod03-16.png  used on input line 180.
+(pdftex.def)             Requested size: 490.7903pt x 256.89421pt.
+
+Overfull \hbox (99.91168pt too wide) in paragraph at lines 180--181
+ [] 
+ []
+
+<images/mod03-17.png, id=401, 767.86874pt x 307.90031pt>
+File: images/mod03-17.png Graphic file (type png)
+<use images/mod03-17.png>
+Package pdftex.def Info: images/mod03-17.png  used on input line 187.
+(pdftex.def)             Requested size: 499.10876pt x 200.13283pt.
+
+Overfull \hbox (80.85509pt too wide) in paragraph at lines 187--188
+ [] 
+ []
+
+[43 <./images/mod03-16.png>]) [44 <./images/mod03-17.png>] (./bol1201.aux (./mod01.aux) (./mod02.aux) (./mod03.aux)) ) 
 Here is how much of TeX's memory you used:
- 32655 strings out of 477882
- 639181 string characters out of 5837337
+ 32828 strings out of 477882
+ 642233 string characters out of 5837337
  1865388 words of memory out of 5000000
- 52125 multiletter control sequences out of 15000+600000
- 549391 words of font info for 96 fonts, out of 8000000 for 9000
+ 52243 multiletter control sequences out of 15000+600000
+ 566301 words of font info for 121 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  93i,18n,99p,1278b,1585s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on bol1201.pdf (31 pages, 2452681 bytes).
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on bol1201.pdf (45 pages, 4104482 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 538 words of extra memory for PDF output out of 10000 (max. 10000000)
 

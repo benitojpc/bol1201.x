@@ -14,5 +14,5 @@
 \contentsline {section}{\numberline {5}Time frame y fractalidad}{26}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Estrategias de inversión}{30}{chapter.3}%
 \contentsline {section}{\numberline {1}Plan de inversión a largo plazo}{30}{section.3.1}%
-\contentsline {section}{\numberline {2}Estrategias de trading}{30}{section.3.2}%
-\contentsline {section}{\numberline {3}El análisis fundamental}{30}{section.3.3}%
+\contentsline {section}{\numberline {2}Estrategias de trading}{38}{section.3.2}%
+\contentsline {section}{\numberline {3}El análisis fundamental}{44}{section.3.3}%
