@@ -20,3 +20,8 @@
 \contentsline {section}{\numberline {3}El análisis fundamental}{53}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Activos financieros en los que invertir}{56}{chapter.4}%
 \contentsline {section}{\numberline {1}Activos Financieros}{56}{section.4.1}%
+\contentsline {subsection}{\numberline {1.1}Acciones}{56}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {1.2}Bonos}{59}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {1.3}Divisas y derivados financieros}{60}{subsection.4.1.3}%
+\contentsline {subsubsection}{Divisas}{60}{subsection.4.1.3}%
+\contentsline {subsubsection}{Derivados financieros}{60}{subsection.4.1.3}%

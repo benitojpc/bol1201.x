@@ -1777,6 +1777,11 @@ INPUT ./mod04.tex
 INPUT mod04.tex
 INPUT ./mod04.tex
 INPUT mod04.tex
+INPUT ./images/mod04_01.png
+INPUT ./images/mod04_01.png
+INPUT images/mod04_01.png
+INPUT ./images/mod04_01.png
+INPUT ./images/mod04_01.png
 INPUT bol1201.aux
 INPUT ./mod01.aux
 INPUT mod01.aux
